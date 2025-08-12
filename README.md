@@ -14,7 +14,5 @@ Amazone_clone/
 - Amazon-like logo
 - Basic responsive layout
 
-## 🚀 How to Run
-1. **Clone this repository**  
-   ```bash
-   git clone https://github.com/Nevid-786/Amazone_clone.git
+## 🚀 Visit:https://nevid-786.github.io/Amazone_clone/
+
