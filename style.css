@@ -34,7 +34,8 @@
 }
 .border{
     border: 1.5px solid transparent;
-    height: 40px;
+    box-sizing: border-box;
+   
 }
 .border:hover{
     border: 1.5px solid white;
@@ -115,4 +116,97 @@ span{
 }
 .nav-cart i {
     font-size: 30px;
+}
+
+/* Panel */
+.panel{
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 40px;
+    color:white;
+    font-size: 0.9rem;
+    font-weight: 500;
+
+}
+.panel-all{
+    margin-left: 15px;
+    display: flex;
+    
+}
+.panel-option{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    
+}
+.panel-option p{
+    height: 37px;
+    display: flex;
+    align-items: center;
+    padding:0px 10px 0px 15px
+}
+
+.hero-img{
+    background-image: url(hero_image.jpg);
+      height: 600px;
+      width: 100%;
+  
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.msg{
+    height: 40px;
+    width: 80%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color:black;
+    margin-bottom: 25px;
+}
+.msg a{
+    color:blue;
+}
+/* Shop section */
+.shop{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #9E2215;
+    
+}
+.box{
+      margin:10px;
+    height: 480px;
+    
+    border: 2px solid black;
+    box-sizing: border-box;
+    width: 23%;
+    background-color: white;
+    
+    
+
+}
+.box-content{
+    margin:10px;
+    
+    padding-top:20px ;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border:none;
+}
+.box-image{
+    height: 350px;
+    /* widt35: 80%; */
+    background-size: cover;
+    margin:10px 0px 10px 0px;
+    
 }
